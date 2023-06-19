@@ -1,0 +1,12 @@
+2021-06-01 00:40:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TBL_EMPLOYEES" not found; SQL statement:
+INSERT INTO TBL_EMPLOYEES (first_name, last_name, email) VALUES
+  ('Lokesh', 'Gupta', 'abc@gmail.com'),
+  ('Deja', 'Vu', 'xyz@email.com'),
+  ('Caption', 'America', 'cap@marvel.com') [42102-200]
+2021-06-01 00:46:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TBL_EMPLOYEES" not found; SQL statement:
+INSERT INTO TBL_EMPLOYEES (first_name, last_name, email) VALUES
+  ('Lokesh', 'Gupta', 'abc@gmail.com'),
+  ('Deja', 'Vu', 'xyz@email.com'),
+  ('Caption', 'America', 'cap@marvel.com') [42102-200]

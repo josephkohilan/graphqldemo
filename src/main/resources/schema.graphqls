@@ -1,0 +1,15 @@
+schema {
+    query: DemoQuery
+}
+
+type DemoQuery {
+    getDemoDataOne(input: String): Response
+    getDemoDataTwo(input: String): Response
+}
+
+type Response {
+    input_one: String
+    input_two: String
+    input_three: String
+}
+
